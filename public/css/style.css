@@ -1,0 +1,19 @@
+
+header{
+    background-image: url(../images/banner.jpg);
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+header h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 250%;
+}
+header hr{
+    width: 30%;
+}
+header p span{
+    text-transform: uppercase;
+    text-decoration: underline dotted;
+
+}
