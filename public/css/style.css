@@ -1,8 +1,14 @@
-
+body{
+    margin: 0;
+    background-color: lightgray;
+}
 header{
     background-image: url(../images/banner.jpg);
     color: white;
     padding: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     text-align: center;
 }
 header h1{
@@ -16,4 +22,25 @@ header p span{
     text-transform: uppercase;
     text-decoration: underline dotted;
 
+}
+main{
+    margin: 5% 11%;
+    text-align: center; 
+}
+main .about{
+    background-color: white;
+    padding-top: 5%;
+}
+main .about i{
+    color: darkgrey;
+    border: darkgrey solid 1px;
+    border-radius: 50%;
+    padding: 1%;
+}
+main .about i:hover{
+    color: black;
+    border: black solid 1px ;
+}
+.about p{
+    margin: 5%;
 }
