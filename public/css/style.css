@@ -23,6 +23,7 @@ header p span{
     text-decoration: underline dotted;
 
 }
+/* main et section 1 */
 main{
     margin: 5% 11%;
     text-align: center; 
@@ -30,6 +31,7 @@ main{
 main .about{
     background-color: white;
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 main .about i{
     color: darkgrey;
@@ -41,6 +43,199 @@ main .about i:hover{
     color: black;
     border: black solid 1px ;
 }
+.about h1{
+    text-transform: uppercase;
+}
 .about p{
-    margin: 5%;
+    display: flex;
+    margin: 5% 15%;
+    
+
+}
+.about .btn{
+    text-decoration: none;
+    color: black;
+    border: black solid 1px;
+    padding: 1% 3%;
+}
+.about .btn:hover{
+    color: red;
+    border: red solid 1px;
+}
+/* cards */
+section:nth-of-type(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5% 0;
+}
+.card{
+    width: 45%;
+    background-color: white;
+    margin-bottom: 5%;
+    overflow: hidden;
+    
+    
+}
+.card .head_card1{
+    background-image: url(../images/pic01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    
+    transition: all 1.5s ease;
+}
+.card .head_card1:hover{
+    transform: scale(1.3);
+    
+
+}
+.card .head_card1 h3{
+    justify-content: center;
+    align-self: center;
+    color: white;
+    margin: 10% 20%;
+    position: absolute;
+}
+.card div{
+    padding: 5%;
+}
+.card  div p{
+    margin: 10% 15%;
+}
+.card div a{
+    text-decoration: none;
+    color: black;
+    border: black solid 1px;
+    padding: 1% 3%;
+}
+.card div a:hover{
+    color: red;
+    border: red solid 1px;
+}
+.card .head_card2{
+    background-image: url(../images/pic02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    transition: all 1.5s ease;
+}
+.card .head_card2:hover{
+    transform: scale(1.3);
+
+}
+.card .head_card2 h3{
+    justify-content: center;
+    align-self: center;
+    color: white;
+    margin: 10% 20%;
+    position: absolute;
+}
+.card .head_card3{
+    background-image: url(../images/pic03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    transition: all 1.5s ease;
+}
+.card .head_card3:hover{
+    transform: scale(1.3);
+
+}
+.card .head_card3 h3{
+    justify-content: center;
+    align-self: center;
+    color: white;
+    margin: 10% 20%;
+    position: absolute;
+}
+.card .head_card4{
+    background-image: url(../images/pic04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    transition: all 1.5s ease;
+}
+.card .head_card4:hover{
+    transform: scale(1.3);
+
+}
+.card .head_card4 h3{
+    justify-content: center;
+    align-self: center;
+    color: white;
+    margin: 10% 20%;
+    position: absolute;
+}
+/* footer */
+footer h2{
+    text-transform: uppercase;
+    color: rgb(82, 80, 80);
+}
+footer p{
+    margin: 5% 30%;
+}
+footer>a{
+    text-decoration: none;
+    color: black;
+    border: black solid 1px;
+    padding: 1% 3%;
+    
+}
+footer>a:hover{
+    color: red;
+    border: red solid 1px;
+}
+footer hr{
+    margin-top: 5%;
+    width: 20%;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 30px 0;
+}
+footer ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+footer ul li i{
+    color: black;
+    opacity: 0.8;
+}
+footer ul li i:hover{
+    opacity: 1;
+}
+footer span a{
+    color: black;
+    text-decoration: none;
+    text-decoration: underline dotted;
+}
+@media screen and (max-width:600px) {
+    header main{
+        margin: 0;
+    }
+    section:nth-of-type(2){
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+    .card{
+        width: 100%;
+    }
+    
 }
